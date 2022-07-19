@@ -1,0 +1,70 @@
+/* GENERAL SETUP */
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;0,800;1,200&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Karla', sans-serif;
+}
+
+/* HERO SECTION AND NAVBAR */
+.hero-section, footer {
+    background-color: #1f2937;
+}
+
+.hero-section h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+}
+
+.hero-section p, .hero-section a, footer {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+.hero-section .header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.hero-button {
+    background-color: #3882f6;
+    border: none;
+    color: white;
+}
+
+/* CARDS SECTIONS */
+.cards-section h3 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+}
+
+/* QUOTE SECTION */
+.quote-section {
+    background-color: #e5e7eb;
+}
+
+.quote-section blockquote {
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+    color: #1f2937;
+}
+
+
+/* CALL TO ACTION SECTION */
+.call-container {
+    background-color: #3882f6;
+    color: white;
+}
+
+.call-button {
+    background: none;
+    border: 1px solid white;
+    color: white;
+}
+
