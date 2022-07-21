@@ -8,7 +8,8 @@
     font-family: 'Karla', sans-serif;
 }
 
-/* HERO SECTION TYPOGRAPHY */
+/* HERO SECTION */
+/* hero section typography */
 .hero-section {
     display: flex;
     flex-direction: column;
@@ -17,7 +18,7 @@
 }
 
 .hero-main {
-    width: 768px;
+    width: 900px;
 }
 
 .hero-section {
@@ -51,7 +52,7 @@
     border-radius: 3px;
 }
 
-/* HERO SECTION NAVBAR */
+/* hero section navbar */
 .hero-section nav {
     display: flex;
     justify-content: space-between;
@@ -68,7 +69,7 @@
     margin-left: 15px;
 }
 
-/* HERO SECTION CONTENT AREA */
+/* hero section content area */
 .hero-container {
     display: flex;
     justify-content: space-between;
@@ -85,16 +86,43 @@
     justify-content: space-between;
     align-items: flex-start;
 }
-
 /* HERO SECTION END */
 
 
 /* CARDS SECTIONS */
+/* cards section typography */
 .cards-section h3 {
     font-size: 36px;
     font-weight: 800;
     color: #1f2937;
+    margin: 50px auto;
+    width: fit-content;
 }
+
+/* cards flex container */
+.card-container {
+    display: flex;
+    justify-content: center;
+    width: 768px;
+    gap: 35px;
+    margin: 0 auto 100px;
+}
+
+.card {
+    width: 160px;
+}
+
+.card img {
+    border: 5px solid #3882f6;
+    border-radius: 10px;
+}
+
+.card p {
+    text-align: center;
+    width: 100%;
+    margin: 0;
+}
+
 
 /* QUOTE SECTION */
 .quote-section {
@@ -107,7 +135,6 @@
     font-style: italic;
     color: #1f2937;
 }
-
 
 /* CALL TO ACTION SECTION */
 .call-container {
