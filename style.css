@@ -2,183 +2,183 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;0,800;1,200&display=swap');
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Karla', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Karla', sans-serif;
 }
 
 /* HERO SECTION */
 /* hero section typography */
 .hero-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;    
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .hero-main {
-    width: 900px;
+  width: 900px;
 }
 
 .hero-section {
-    background-color: #1f2937;
-    width: 100%;
+  background-color: #1f2937;
+  width: 100%;
 }
 
 .hero-section h1 {
-    font-size: 48px;
-    font-weight: 800;
-    color: #f9faf8;
+  font-size: 48px;
+  font-weight: 800;
+  color: #f9faf8;
 }
 
-.hero-section p, .hero-section a {
-    font-size: 18px;
-    color: #e5e7eb;
-    text-decoration: none;
+.hero-section p,
+.hero-section a {
+  font-size: 18px;
+  color: #e5e7eb;
+  text-decoration: none;
 }
 
 .hero-section .header-logo {
-    font-size: 24px;
-    color: #f9faf8;
+  font-size: 24px;
+  color: #f9faf8;
 }
 
 .hero-button {
-    background-color: #3882f6;
-    border: none;
-    color: white;
-    font-weight: bold;
-    padding: 5px 20px;
-    border-radius: 3px;
+  background-color: #3882f6;
+  border: none;
+  color: white;
+  font-weight: bold;
+  padding: 5px 20px;
+  border-radius: 3px;
 }
 
 /* hero section navbar */
 .hero-section nav {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
 }
 
 .hero-section ul {
-    list-style: none;
-    display: flex;
-    align-items: center;
+  list-style: none;
+  display: flex;
+  align-items: center;
 }
 
 .hero-section li {
-    margin-left: 15px;
+  margin-left: 15px;
 }
 
 /* hero section content area */
 .hero-container {
-    display: flex;
-    justify-content: space-between;
-    margin: 100px 0;
+  display: flex;
+  justify-content: space-between;
+  margin: 100px 0;
 }
 
 .hero-container img {
-    margin-left: 50px;
+  margin-left: 50px;
 }
 
 .hero-description {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 /* HERO SECTION END */
-
 
 /* CARDS SECTIONS */
 /* cards section typography */
 .cards-section h3 {
-    font-size: 36px;
-    font-weight: 800;
-    color: #1f2937;
-    margin: 50px auto;
-    width: fit-content;
+  font-size: 36px;
+  font-weight: 800;
+  color: #1f2937;
+  margin: 50px auto;
+  width: fit-content;
 }
 
 /* cards flex container */
 .card-container {
-    display: flex;
-    justify-content: center;
-    width: 768px;
-    gap: 35px;
-    margin: 0 auto 100px;
+  display: flex;
+  justify-content: center;
+  width: 768px;
+  gap: 35px;
+  margin: 0 auto 100px;
 }
 
 .card {
-    width: 160px;
+  width: 160px;
 }
 
 .card img {
-    border: 5px solid #3882f6;
-    border-radius: 10px;
+  border: 5px solid #3882f6;
+  border-radius: 10px;
 }
 
 .card p {
-    text-align: center;
-    width: 100%;
-    margin: 0;
+  text-align: center;
+  width: 100%;
+  margin: 0;
 }
 /* CARDS SECTIONS END*/
 
 /* QUOTE SECTION */
 .quote-section {
-    background-color: #e5e7eb;
-    padding: 100px 0;
+  background-color: #e5e7eb;
+  padding: 100px 0;
 }
 
 .quote-container {
-    width: 768px;
-    margin: 0 auto;
+  width: 768px;
+  margin: 0 auto;
 }
 
 .quote-section blockquote {
-    font-size: 36px;
-    font-weight: 200;
-    font-style: italic;
-    color: #1f2937;
+  font-size: 36px;
+  font-weight: 200;
+  font-style: italic;
+  color: #1f2937;
 }
 
 .quote-section cite {
-    float: right;
-    font-size: 18px;
-    font-weight: bold;
+  float: right;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 /* CALL TO ACTION SECTION */
 .call-container {
-    margin:100px auto;
-    width: 900px;    
-    border-radius: 5px;
-    background-color: #3882f6;
-    padding: 30px 70px;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  margin: 100px auto;
+  width: 900px;
+  border-radius: 5px;
+  background-color: #3882f6;
+  padding: 30px 70px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .call-button {
-    background: none;
-    border: 2px solid white;
-    color: white;
-    font-weight: bold;
-    padding: 5px 20px;
-    border-radius: 3px;
+  background: none;
+  border: 2px solid white;
+  color: white;
+  font-weight: bold;
+  padding: 5px 20px;
+  border-radius: 3px;
 }
 
 /* FOOTER */
 
 footer {
-    background-color: #1f2937;
-    width: 100%;
-    font-size: 18px;
-    color: #e5e7eb;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px 0;
+  background-color: #1f2937;
+  width: 100%;
+  font-size: 18px;
+  color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
 }
